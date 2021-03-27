@@ -24,7 +24,7 @@ const FormField = () => {
 				<strong>Try it free 7 days</strong> then $20/mo. thereafter
 			</div>
 			<form>
-				<div>
+				<div className="input-field-container">
 					<InputField
 						setData={setFirstName}
 						value={firstName}
@@ -58,7 +58,10 @@ const FormField = () => {
 					CLAIM YOUR FREE TRIAL
 				</button>
 				<p>
-					By clicking the button, you are agreeing to our <span>Terms and Services</span>
+					By clicking the button, you are agreeing to our{" "}
+					<span>
+						<a href="">Terms and Services</a>
+					</span>
 				</p>
 			</form>
 		</div>
